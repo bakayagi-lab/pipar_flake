@@ -29,9 +29,9 @@
 
             display-name = "default";
             bindings = <
-&kp Q  &kp C  &kp E
-&kp A  &kp S  &kp D
-&kp Z  &kp X  &mo 1
+&kp K_CUT   &kp TILDE2  &to 1
+&kp K_COPY  &kp UP      &kp K_PASTE
+&kp LEFT    &kp DOWN    &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -55,10 +55,12 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &to 0
-&trans  &trans  &trans
-&trans  &trans  &trans
+&kp F12  &kp F13  &to 0
+&kp F14  &kp F15  &kp F16
+&kp F17  &kp F18  &kp F19
             >;
+
+            label = "F";
         };
     };
 };
