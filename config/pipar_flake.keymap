@@ -29,9 +29,9 @@
 
             display-name = "default";
             bindings = <
-&kp K_CUT   &kp TILDE2  &to 1
-&kp K_COPY  &kp UP      &kp K_PASTE
-&kp LEFT    &kp DOWN    &kp RIGHT
+&kp K_CUT   &kp LC(LEFT_SHIFT)  &to 1
+&kp K_COPY  &kp UP              &kp K_PASTE
+&kp LEFT    &kp DOWN            &kp RIGHT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
